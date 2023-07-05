@@ -1,0 +1,102 @@
+
+{% extends 'app/layout/base.html' %}
+{% block content%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+</head>
+<body>
+
+    <div class="banner" style="background-color: black;" id="home">
+
+        <img src="https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png">
+
+    </div>
+    <div class="container">
+     <div id="aboutme">
+        <h2 class="h2">Hi, there My name is Kayyasit</h2>
+     </div>
+
+
+    <div id="services" class="row"> 
+        <h2 class="h2">Offered Services</h2>
+     <div class="col">
+           <div class="card" style="width: 18rem;">
+            <img src="https://img.freepik.com/free-vector/illustration-data-analysis-graph_53876-18131.jpg?w=2000" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Data science</h5>
+              <p class="card-text">Data science empowers businesses by extracting valuable insights from data, enabling informed decision-making and driving growth.</p>
+              <a href="#datascince" class="btn btn-primary">Contact me now</a>
+            </div>
+          </div>
+     </div>
+     <!--col 1-->
+
+     <div class="col">
+           <div class="card" style="width: 18rem;">
+            <img src="https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Web development</h5>
+              <p class="card-text">Elevate your online presence and engage your target audience with a tailored web development solution that combines stunning design, seamless functionality, and a user-centric approach to drive your business forward.</p>
+              <a href="#webdevelopment" class="btn btn-primary">Contact me now</a>
+            </div>
+          </div>
+     </div>
+     <!--col 2-->
+
+     <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.parsehub.com/blog/content/images/2021/06/what-is-web-sraping-parsehub.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Data scraping</h5>
+              <p class="card-text">With the powerful tool like beautifulSoup and selenium any kind of scraping can be done easily or generic scripting tasks can be done with Python</p>
+              <a href="#" class="btn btn-primary">Contact me now</a>
+            </div>
+          </div>
+     </div>
+     <!--col 3-->
+     <div class="col">
+        <div class="card" style="width: 18rem;">
+
+          <img src="https://miro.medium.com/v2/resize:fit:497/1*Qx5jc9NdyPRg5DQl1NaAmQ.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Scripting task</h5>
+            <p class="card-text">Unlock the potential of scripting to revolutionize your business operations, automate tasks, and drive efficiency, allowing your team to excel and achieve greater success</p>
+            <a href="#" class="btn btn-primary">Contact me now</a>
+          </div>
+        </div>
+    </div>
+    <!--col 4-->
+    </div>
+   
+
+     <!--Contact form-->
+     
+     <div id="contact" class="contact-form"> 
+        <h3 class="h3">Contact form</h3>
+        <form action="" class="form-group">
+
+            <input type="text" placeholder="Name">
+            <br>
+            <input type="email" placeholder="Youremail@example.com" required>
+
+            <br>
+
+            <input type="text" placeholder="Message" style="width: 500px; height:500px;">
+
+             <button type="submit" class="btn btn-primary">Submit</button>
+
+            
+        </form>
+
+     </div>
+
+     
+     <!--container-->
+    </div>
+</body>
+</html>
+{% endblock %}
